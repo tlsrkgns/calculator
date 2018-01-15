@@ -10,7 +10,11 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 	
-	printf("¼ö½ÄÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä: ");
+<<<<<<< HEAD
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½: ");
+=======
+	printf("ìˆ˜ì‹ì„ ì…ë ¥í•´ì£¼ì„¸ìš” (ì˜ˆ> 1+2) : ");
+>>>>>>> 396295591263a48f5c7b5d7b997888b420dec782
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
@@ -34,9 +38,9 @@ int main(int argc, char* argv[])
 	return 0;
 }
  
-int add(int number1, int number2)
+int add(int number1, int number3)
 {
-	return number1 + number2;
+	return number1 + number3;
 }
  
 int sub(int number1, int number2)
