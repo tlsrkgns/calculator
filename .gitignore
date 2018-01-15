@@ -1,6 +1,7 @@
 to_be_ignore.txt
 
-# Created by https://www.gitignore.io/api/c,windows
+
+# Created by https://www.gitignore.io/api/c,windows,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -56,6 +57,14 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -78,4 +87,4 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/c,windows
+# End of https://www.gitignore.io/api/c,windows,visualstudiocode
